@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>夫礼者简历 - 项目经验介绍</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+				<!-- <img src="static/image/weixin.png" alt="">   -->
+                <div class="portrait">
+				</div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >夫礼者</h1>
+                <h4 id="persona-tag" >Java / .NET / Python / GIS</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-stars"></i> <span class="info-title">求职意向</span></h2>
+                <hr>
+                <ul class="info-list">
+
+					<li>
+                        1. <span style="padding-left:5px">高级研发工程师</span></li>
+                    <li>
+                         2. <span style="padding-left:5px">系统架构师</span></li>
+                    <li>
+                         3. <span style="padding-left:5px">技术总监</span></li>							 
+                    <li>
+                        4. <span style="padding-left:5px">DevOps方向解决方案专家</span></li>
+                    <li>
+                       5. <span style="padding-left:5px">EAI(企业应用集成)/EIP方向</span></li>
+                </ul>
+            </div>			
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">XX</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">天津师范大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2009</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">158XXXX1228</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">lqzkcx3@outlook.com</span></li>
+                    <li>
+                        <label class="left-label">简书</label><span class="label-value"><a href="https://www.jianshu.com/u/cd3dd432fd00">简书</a></span></li>
+                    <li>
+                        <label class="left-label">博客</label><span class="label-value"><a href="https://blog.csdn.net/lqzkcx3">CSDN</a></span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">.NET</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Powershell</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Groovy</label>
+                        <progress value="60" max="100"></progress>
+                    </li>					
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">jQuery、EasyUI</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">Java、.NET、Python、Oracle、Redis</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">正则表达式、Groovy、Powershell、Shell</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人公众号</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>      
+        <div class="main">
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经验</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>主导共享交换平台建设</h3>
+                        <p>
+                            通过独立的调研，借助EIP(企业集成模式)思想和相应的成熟框架主导搭建了部门层面的统一共享交换平台。
+                            <br/>
+							技术栈: SpringBoot2.x + Apache Camel + MybatisPlus + Druid + Fastjson + hibernate-validator  + Swagger + Java8等。
+							<br/>
+							得益于优秀的基础技术框架选型并大量参考借鉴《企业集成模式（设计构建及部署消息传递解决方案）》一书中提供的 47 种EAI模式，截止目前平台已经实现了详尽的处理流程扭转日志归档，稳定可靠的事务补偿机制，丰富且功能单一业务组件，灵活的流程再造等功能，大幅降低多个异构系统、多种对接模式下对研发人员职业素养的要求，保证对接质量的同时实现快速的组织过程资产积累，不断降低对接研发的投入成本。
+							<br/>
+                        </p>
+                    </li>				
+                    <li>
+                        <h3>2017/09-2018/02 十堰市房产综合管理平台(Java)</h3>
+                        <p>
+							1. 本项目的主要是为了协助房产局工作人员梳理老百姓在买房办证过程中所需要的办事流程，简化办事手续，提高办事效率。
+                           <br> 2. 系统使用`Spring`+`SpringMVC`+`MyBatis`+`EasyUI`+`Web Service`+`Service xml`等技术，本人在项目中担任技术负责人一职。通过集成本人自主孵化的一套后台快速开发框架，实现后端零Java代码实现。并在后期系统迭代过程中根据实际情况进行了一系列优化，诸如通过Redis缓存实现访问限流等。
+                        </p>
+                    </li>	
+                    <li>
+                        <h3>2017/01-2017/08 昆明市土地税源管理信息系统(Java)</h3>
+                        <p>
+                           1. 本项目的主要目标是为了协助税务机关完成相关纳税人的税款计算，预警，催办催缴等任务。简化他们的办事流程，进而提高其办事效率。
+						   <br> 2. 系统使用`Spring`+`SpringMVC`+`MyBatis`+`EasyUI``+`Service xml`+`Redis`+`Nginx`等技术。 本人在项目中担任技术负责人一职。通过集成本人自主孵化的一套后台快速开发框架，实现后端零Java代码实现。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>2015/09-2016/11 不动产数据共享交换平台(Java)</h3>
+                        <p>
+                            在项目中担任技术负责人一职。通过大量借鉴自Mybatis的配置解析，Tomcat的Pipeline模式，Spring的设计模式应用，同时参见`Dubbo`架构师梁飞的框架结构建议。最终实现XML配置形式的对接交换平台服务，极大降低了对于业务研发人员的要求，增强系统的稳定性。
+                        </p>
+                    </li>					
+                    <li>
+                        <h3>2014/06-2015/07 车载GPS信息管理系统(Java)</h3>
+                        <p>
+                            1. 为了解决武汉江岸区的渣土车实时运行轨迹管理而进行的项目研发工作。
+							<br>2. 本项目采用`Spring` + `SpringMVC` + `MyBatis` + `EasyUI` 等技术。
+							<br>3. 本人在其中负责系统管理功能开发，使用EasyUi进行页面绘制等职责。
+                        </p>
+                    </li>					
+                    <li>
+                        <h3>2013/03-2014/05 太原市煤炭工业系统(Java)</h3>
+                        <p>
+                            1. 为了充分利用“数字太原”地理信息平台的资源，结合太原市煤炭工业部门相关应用需求，实现的相关系统的建设开发。
+							<br> 2. 本项目采用`Spring` + `SpringMVC` + `MyBatis` + `Apose` + `EasyUI` 等技术。
+							<br> 3. 本人在其中负责系统管理功能开发，GIS数据转换处理等职责。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>2011/11-2012/09 太原地震应急减灾地理信息(.NET)</h3>
+                        <p>
+                            1. 系统通过与太原"一张图"以及兄弟单位系统之间的对接和联通，借助GIS的分析功能为客户决
+策提供强有力的实时信息共享和技术支撑，最大限度地保障人民群众的生命财产安全。
+<br> 2. 项目采用`B/S`架构，。技术栈采用了`ASP.NET MVC3` + `EF` + `MySQL` + `GeoServer` + `VS2010` + `ArcGIS`。
+<br> 3. 本人在其中负责系统管理功能开发，GIS数据转换处理、系统集成等职责。
+                        </p>
+                    </li>
+<!--					
+
+-->					
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

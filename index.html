@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>夫礼者简历</title>
+    <link rel="stylesheet" href="static/css/style.css">
+<!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+-->
+    <link rel="stylesheet" href="static/css/remodal.css">
+    <link rel="stylesheet" href="static/css/remodal-default-theme.min.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/remodal.min.js"></script>
+	
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+				<!-- <img src="static/image/weixin.png" alt="">   -->
+                <div class="portrait">
+				</div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >夫礼者</h1>
+                <h4 id="persona-tag" >Java / .NET / Python / GIS</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-stars"></i> <span class="info-title">求职意向</span></h2>
+                <hr>
+                <ul class="info-list">
+
+					<li>
+                        1. <span style="padding-left:5px">高级研发工程师</span></li>
+                    <li>
+                         2. <span style="padding-left:5px">系统架构师</span></li>
+                    <li>
+                         3. <span style="padding-left:5px">技术总监</span></li>						 
+                    <li>
+                        4. <span style="padding-left:5px">DevOps解决方案专家</span></li>
+                    <li>
+                       5. <span style="padding-left:5px">EAI(企业应用集成)/EIP方向</span></li>
+                </ul>
+            </div>			
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">XX</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">本科</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">天津师范大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2009</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">158XXXX1228</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">lqzkcx3@outlook.com</span></li>
+                    <li>
+                        <label class="left-label">简书</label><span class="label-value"><a href="https://www.jianshu.com/u/cd3dd432fd00">简书</a></span></li>
+                    <li>
+                        <label class="left-label">博客</label><span class="label-value"><a href="https://blog.csdn.net/lqzkcx3">CSDN</a></span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">.NET</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Python</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Powershell</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Groovy</label>
+                        <progress value="60" max="100"></progress>
+                    </li>					
+                    <li>
+                        <label class="left-label">正则</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">php</label>
+                        <progress value="50" max="100"></progress>
+                    </li>					
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">前端</label><span class="label-value">jQuery、EasyUI</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">后端</label><span class="label-value">Java、.NET、Python、Oracle、Redis</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">其它</label><span class="label-value">正则表达式、Groovy、Powershell、Shell</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人公众号</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>天津师范大学 - 地理信息系统专业</h3>
+                        <p>
+                            
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Z公司（2015年至今，Java方向，部门架构组组长，软件事业部架构师）</h3>	
+						<p> 1. 所在部门负责国土自然资源相关的电子政务软件产品研发。截止2020/07, 部门研发人员数量达到八十人左右。 
+                        <p>2. 主导所在部门的内部技术架构，推动部门技术体系的统一。
+                        </p>						
+                        <p>3. 主导搭建部门内部Java技术栈的培养体系。
+                        </p>
+                        <p>4. 主导孵化并维护公司内部多个二方库组件项目。 
+                        </p>						
+                        <p>5. 主导推动DevOps在集团软件事业部层面的落地。
+                        </p>
+						<p> 6. 主动组织武汉研发中心人员参加软考，现已辅助多人通过高级别考试。
+                        </p>						
+                    </li>				
+                    <li>
+                        <h3>Y公司（2013年 至 2015年，Java方向，高级研发工程师）</h3>
+                        <p>1. 业务项目研发，业务模块功能实现。
+                        </p>
+                        <p>2. 公司内部二方库的部分组件实现。
+                        </p>						
+                    </li>					
+                    <li>
+                        <h3>X公司（2011年 至 2013年， .NET方向，中级研发工程师）</h3>
+                        <p>1. 业务项目研发，业务模块功能实现。
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">项目经验</span></h2>
+                <hr>
+                <ul class="experience-list">	
+                    <li>
+                        <h3>主导推动多个二方库的孵化与维护</h3> 	
+                        <p>
+                            通过初期直接参与一线项目业务编码开发，以及后期与一线业务研发人员的交流， 从实际的项目中发现技术痛点，主导孵化出了多个二方库，并负责之后的维护升级工作，以简化BUG修复，减轻业务人员的负担，推动技术栈的统一，加快开发效率。截至2020年初，已经孵化快速开发，附件管理，Office操作等四款中间件投入到生产环境，并在迭代过程中积累了大量的培训和说明文档。
+                            <br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>主导公司知识库的建立和推进迭代</h3>
+                        <p>
+                            于2018年底开始，采取部门内试运行、各部门宣讲、部门例会推荐等方式，最终推动了企业WIKI在整个集团公司全国范围内的落地，促进公司组织过程资产积累。并在之后积极编写补充各类文档(至今已经完成百余篇, 内容涵盖了技术，管理流程等多方面)，通过以身作则和实际的效果吸引和推动WIKI在三个平台以及其他业务研发部门中的落地。 
+                            <br/>
+                        </p>
+                    </li>
+					<!--
+                    <li>
+                        <h3>主导搭建公司部门技术中台</h3>
+                        <p>
+                            通过调研以及借鉴优秀开源项目，并结合部门内部的业务情况以及人员水平，搭建公司部门内部自己的技术中台，积极吸取技术发展的红利，力求最大化的加快交付速度。
+                            <br/>
+                        </p>
+                    </li>
+					-->
+                    <li>
+                        <h3>主导推动DevOps在集团软件事业部层面的落地</h3>
+                        <p>    						
+							自掏腰包购买多台云服务器解决资源不足的问题，确保DevOps制度的推进。<br/>	通过多方收集资料(包括但不限于阅读总计百万字的极客时间专栏，多本纸质书籍，同时保持与有落地经验的人沟通等)与实践, 主导制定软件事业部层面的DevOps推进路线(从Zentao规范化使用的推广培训，以及相关二次开发以量化进度和适配团队操作习惯到研发人员开发环境的统一，到使用docker+docker-compose实现不可变基础设施等)。<br/>
+                        </p>
+                    </li>	
+<!--	-->					
+                    <li>
+                        <h3><a href="projects.html">其他项目介绍</a></h3>
+                        <p> 未完待续
+                         </p>
+                    </li>	
+				
+                </ul>
+            </div>		
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>高级系统架构设计师(软考-2018/11)</h3>
+                        <!--<p></p>-->
+                    </li>
+                    <li>
+                        <h3>高级信息系统项目管理师(软考-2019/05)</h3>
+                        <!--<p></p>-->
+                    </li>
+					<li>
+                        <h3>软件设计师(软考-2022/05)</h3>
+                        <!--<p></p>-->
+                    </li>
+					<li>
+                        <h3>注册测绘师(2022/09)</h3>
+                        <!--<p></p>-->
+                    </li>
+					<li>
+                        <h3>信息安全工程师(软考-2023/11)</h3>
+                        <!--<p></p>-->
+                    </li>
+					<li>
+                        <h3>数据库系统工程师(软考-2024/05)</h3>
+                        <!--<p></p>-->
+                    </li>
+                    <li>
+                        <h3>湖北省政府采购专家库成员</h3>
+                        <!--<p></p>-->
+                    </li>
+                    <li>
+                        <h3>工程师职称(GIS方向)</h3>
+                        <!--<p></p>-->
+                    </li>					
+                    <li>
+                        <h3>2018年软件事业部优秀员工</h3>
+                        <!--<p></p>-->
+                    </li>		
+					<li>
+                        <h3>2020年集团总公司技术创新奖</h3>
+                        <!--<p></p>-->
+                    </li>
+					<li>
+                        <h3>2022年集团总公司优秀员工奖</h3>
+                        <!--<p></p>-->
+                    </li>					
+				</ul>
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+				<ul class="experience-list"> 
+                    <li>
+                        <p>
+                            终生成长者，时至今日保持了多年的阅读习惯(涉猎专业技术、管理类, 心理学, 人类认知学等)；勤于思考，乐于思考。
+                        </p>
+                    </li>				
+                    <li>
+                        <p>
+                            对所从事的行业有着高度的热情，同时维护着两个博客，至今保持更新。并积极参与开源框架建设，为知名微服务框架BladeX多次提交PR并被接受。
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            专业程序员的思维方式和基本素养，以及优良的编程风格和习惯。
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            良好的OOP思维，熟练地将常用的设计模式应用到实际的工作中。
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            对Java中优秀的第三方框架的源码诸如`Spring`， `SprinMVC`， `Mybatis`， `Apache Shiro`， `Apache Camel`等有着比较深入的研究。
+                        </p>
+                    </li>										
+				</ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
