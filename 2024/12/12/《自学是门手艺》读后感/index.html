@@ -1,0 +1,300 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>《自学是门手艺》读后感 | 夫礼者Home</title><noscript>开启JavaScript才能访问本站哦~</noscript><link rel="icon" href="/img/pwa/favicon.png"><!-- index.css--><link rel="stylesheet" href="/css/index.css?v=2.1.13"><!-- inject head--><link rel="canonical" href="http://example.com/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.1/css/all.min.css"><!-- aplayer--><!-- swiper--><!-- fancybox ui--><!-- katex--><!-- Open Graph--><meta name="description" content="这是自学者的黄金时代。 1. 前言最近一段时间个人状态一直很差，加之近期BTC眼瞅着奔着10W dallor这一几年前看来遥不可及的目标线而去，回想起几年前从李笑来的《韭菜的自我修养》一书中坚定对于BTC的信念，时过境迁，多年之后的现在，自己依然没有从中获得什么收益，实在是讽刺。 因此，决定将作"><!-- pwa--><meta name="apple-mobile-web-app-capable" content="夫礼者Home"><meta name="theme-color" content="var(--efu-main)"><meta name="apple-mobile-web-app-status-bar-style" content="var(--efu-main)"><link rel="bookmark" href="/img/pwa/favicon.png"><link rel="apple-touch-icon" href="/img/pwa/favicon.png" sizes="180x180"><script>console.log(' %c Solitude %c ' + '2.1.13' + ' %c https://github.com/everfu/hexo-theme-solitude',
+    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+    'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+    'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
+</script><script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZSE7WE78H9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZSE7WE78H9');
+</script>    
+<script>(()=>{
+        const saveToLocal = {
+            set: function setWithExpiry(key, value, ttl) {
+                if (ttl === 0)
+                    return
+                const now = new Date()
+                const expiryDay = ttl * 86400000
+                const item = {
+                    value: value,
+                    expiry: now.getTime() + expiryDay
+                }
+                localStorage.setItem(key, JSON.stringify(item))
+            },
+            get: function getWithExpiry(key) {
+                const itemStr = localStorage.getItem(key)
+
+                if (!itemStr) {
+                    return undefined
+                }
+                const item = JSON.parse(itemStr)
+                const now = new Date()
+
+                if (now.getTime() > item.expiry) {
+                    localStorage.removeItem(key)
+                    return undefined
+                }
+                return item.value
+            }
+        };
+        window.utils = {
+            saveToLocal: saveToLocal,
+            getCSS: (url, id = false) => new Promise((resolve, reject) => {
+              const link = document.createElement('link')
+              link.rel = 'stylesheet'
+              link.href = url
+              if (id) link.id = id
+              link.onerror = reject
+              link.onload = link.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                link.onload = link.onreadystatechange = null
+                resolve()
+              }
+              document.head.appendChild(link)
+            }),
+            getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+              const script = document.createElement('script')
+              script.src = url
+              script.async = true
+              script.onerror = reject
+              script.onload = script.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                script.onload = script.onreadystatechange = null
+                resolve()
+              }
+
+              Object.keys(attr).forEach(key => {
+                script.setAttribute(key, attr[key])
+              })
+
+              document.head.appendChild(script)
+            }),
+            addGlobalFn: (key, fn, name = false, parent = window) => {
+                const globalFn = parent.globalFn || {}
+                const keyObj = globalFn[key] || {}
+
+                if (name && keyObj[name]) return
+
+                name = name || Object.keys(keyObj).length
+                keyObj[name] = fn
+                globalFn[key] = keyObj
+                parent.globalFn = globalFn
+            },
+            addEventListenerPjax: (ele, event, fn, option = false) => {
+              ele.addEventListener(event, fn, option)
+              utils.addGlobalFn('pjax', () => {
+                  ele.removeEventListener(event, fn, option)
+              })
+          },
+        }
+    })()</script><!-- theme--><script>initTheme = () => {
+    let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const cachedMode = utils.saveToLocal.get('theme');
+    if (cachedMode === undefined) {
+        const nowMode =
+            isDarkMode ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', nowMode);
+    } else {
+        document.documentElement.setAttribute('data-theme', cachedMode);
+    }
+    typeof rm === 'object' && rm.mode(cachedMode === 'dark' && isDarkMode)
+}
+initTheme()</script><!-- global head--><script>const GLOBAL_CONFIG = {
+    root: '/',
+    algolia: undefined,
+    localsearch: {"preload":false,"path":"/search.xml"},
+    runtime: '2023-04-20 00:00:00',
+    lazyload: {
+        enable: false,
+        error: '/img/error_load.avif'
+    },
+    copyright: false,
+    highlight: {"limit":200,"expand":true,"copy":true,"syntax":"highlight.js"},
+    randomlink: false,
+    lang: {"theme":{"dark":"已切换至深色模式","light":"已切换至浅色模式"},"copy":{"success":"复制成功","error":"复制失败"},"backtop":"返回顶部","time":{"day":"天前","hour":"小时前","just":"刚刚","min":"分钟前","month":"个月前"},"day":" 天","f12":"开发者模式已打开，请遵循GPL协议。","totalk":"无需删除空行，直接输入评论即可","search":{"empty":"找不到你查询的内容：${query}","hit":"找到 ${hits} 条结果，用时 ${time} 毫秒","placeholder":"输入关键词快速查找","count":"共 <b>${count}</b> 条结果。","loading":"搜索中..."}},
+    aside: {
+        sayhello: {
+            morning: "✨ 早上好，新的一天开始了",
+            noon: "🍲 午餐时间",
+            afternoon: "🌞 下午好",
+            night: "早点休息",
+            goodnight: "晚安 😴",
+        },
+        sayhello2: [],
+        sayhello3: {
+            prefix: '好久不见，',
+            back: '欢迎再次回来，',
+        },
+    },
+    covercolor: {
+        enable: false
+    },
+    comment: false,
+    lightbox: 'null',
+    post_ai: false,
+    right_menu: false,
+    translate: {"translateDelay":0,"defaultEncoding":2},
+    lure: false,
+    expire: false,
+};</script><!-- page-config head--><script id="config-diff">var PAGE_CONFIG = {
+    is_post: true,
+    is_page: false,
+    is_home: false,
+    page: '',
+    toc: true,
+    comment: false,
+    ai_text: false,
+    color: false,
+}</script><meta name="generator" content="Hexo 7.3.0"></head><body id="body"><!-- universe--><!-- background img--><!-- loading--><div id="loading-box" onclick="preloader.endLoading();" style="zoom:1"><div class="loading-bg"><img class="loading-img nolazyload" src="/images/sicp_cover_english.jpg" alt="loading image"></div></div><script>const preloader = {
+    isLoaded: false,
+    endLoading: () => {
+        if (!preloader.isLoaded) {
+            document.getElementById('loading-box').classList.add('loaded');
+            preloader.isLoaded = true;
+            preloader.togglePaceDone();
+        }
+    },
+    initLoading: () => {
+        document.getElementById('loading-box').classList.remove('loaded');
+        preloader.isLoaded = false;
+        preloader.togglePaceDone();
+    },
+    togglePaceDone: () => {
+        document.getElementById('body').className = preloader.isLoaded ? 'pace-done' : '';
+    }
+}
+
+window.addEventListener('load', () => {
+    preloader.endLoading();
+});
+
+window.addEventListener('pjax:send', () => {
+    preloader.initLoading();
+});
+
+document.addEventListener('pjax:complete', () => {
+    preloader.endLoading();
+});
+
+setTimeout(() => {
+    preloader.endLoading();
+}, 5000);</script><!-- console--><!-- sidebar--><div id="sidebar" style="zoom: 1;"><div id="menu-mask" style="display: none;"></div><div id="sidebar-menus"><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a></div></div></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><span class="darkmode_switchbutton menu-child" onclick="sco.switchDarkMode()"><i class="solitude fa-solid fa-circle-half-stroke"></i><span>显示模式</span></span></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">project</div><div class="back-menu-list"><a class="back-menu-item" href="/curriculumVitae" title="个人简历"><img class="nolazyload back-menu-item-icon" src="/images/sicp_cover_english.jpg" alt="个人简历"><span class="back-menu-item-text">个人简历</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span>首页</span></a></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-widget card-tags card-archives card-webinfo card-allinfo"><div class="card-tag-cloud"><a href="/tags/%E9%98%85%E8%AF%BB/">阅读<sup>2</sup></a><a href="/tags/%E7%90%86%E8%B4%A2/">理财<sup>1</sup></a></div></div></div></div><!-- keyboard--><!-- righhtside--><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav class="show" id="nav"><div id="nav-group"><div id="blog_name"><div class="back-home-button" tabindex="-1"><i class="back-home-button-icon solitude fas fa-bars-progress"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">project</div><div class="back-menu-list"><a class="back-menu-item" href="/curriculumVitae" title="个人简历"><img class="nolazyload back-menu-item-icon" src="/images/sicp_cover_english.jpg" alt="个人简历"><span class="back-menu-item-text">个人简历</span></a></div></div></div></div><a id="site-name" href="/" title="返回博客主页"><span class="title">夫礼者小屋</span><i class="solitude fa-solid fa-home"></i></a></div><div id="page-name-mask"><div id="page-name"><a id="page-name-text" onclick="sco.toTop()">《自学是门手艺》读后感</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><span>首页</span></a></div></div></div><div id="nav-left"></div><div id="nav-right"><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" title="搜索"><i class="solitude fa-solid fa-magnifying-glass"></i></a></div><div class="nav-button" id="nav-totop" onclick="sco.toTop()"><a class="totopbtn"><i class="solitude fa-solid fa-arrow-up"></i><span id="percent">0</span></a></div><div id="toggle-menu"><a class="site-page"><i class="solitude fa-solid fa-bars"></i></a></div></div></div></nav><div class="coverdiv" id="coverdiv"><img class="nolazyload" id="post-cover" src="/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg" alt="《自学是门手艺》读后感"></div><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original" title="该文章为原创文章，注意版权协议">原创</a><span class="post-meta-categories"><a class="post-meta-categories" href="/categories/%E9%98%85%E8%AF%BB/">阅读</a></span><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%98%85%E8%AF%BB/"><span class="tags-name tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>阅读</span></a></div></div></div></div><h1 class="post-title">《自学是门手艺》读后感</h1><div id="post-meta"><div class="meta-secondline"><span class="post-meta-date" title="发布于 2024-12-12 20:40:48"><i class="post-meta-icon solitude fas fa-calendar-days"></i><time datetime="2024-12-12T12:40:48.000Z">2024-12-12T12:40:48.000Z</time></span><span class="post-meta-date" title="最后更新于 2024-12-16 14:10:15"><i class="post-meta-icon solitude fa-solid fa-arrows-rotate"></i><time datetime="2024-12-16T06:10:15.314Z">2024-12-16T06:10:15.314Z</time></span><span class="post-meta-position" title="作者IP归属地为China"><i class="post-meta-icon solitude fas fa-location-dot"></i><span>China</span></span><a class="post-meta-pv" href="/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/" title="文章热度"><i class="post-meta-icon solitude fa-solid fa-fire-flame-curved"></i></a></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section></header><main class="layout" id="content-inner"><div id="post"><article class="post-content article-container"><blockquote>
+<p>这是自学者的黄金时代。</p>
+</blockquote>
+<h3 id="1-前言"><a href="#1-前言" class="headerlink" title="1. 前言"></a>1. 前言</h3><p>最近一段时间个人状态一直很差，加之近期BTC眼瞅着奔着10W dallor这一几年前看来遥不可及的目标线而去，回想起几年前从李笑来的《韭菜的自我修养》一书中坚定对于BTC的信念，时过境迁，多年之后的现在，自己依然没有从中获得什么收益，实在是讽刺。</p>
+<p>因此，决定将作者出版的其他相关书籍做一个补齐。于是就有了本篇读后感。</p>
+<p>其实这本书刚刚出版的时候我就从各类软文中知晓一二，最终没有选择阅读的原因很大一部分是作者宣称其是一本试图教授读者学会编程的书籍，而我的本职工作恰好就是这软件开发，因此当时的心境之下，选择跳过了这本书。</p>
+<h3 id="2-全书印象"><a href="#2-全书印象" class="headerlink" title="2. 全书印象"></a>2. 全书印象</h3><p>相较于全书逐字阅读（这也是李笑来所推崇的），这本书的阅读我直接采取了按需阅读的方式 —— 其中涉及到编码尝试的章节直接跳过。</p>
+<p>全书看下来，比较大的感受就是自学是有方法论的，在构建好自己的自学思维体系建设和相应的方法论之后，对于我们普通人而言，会从心底去相信自己的可能性 —— 我想要有所成就的事情，它需要哪些能力，我都是可以找到相应的学习材料，并且能够学会相关内容，最终达到我的目标。</p>
+<h3 id="3-部分摘抄"><a href="#3-部分摘抄" class="headerlink" title="3. 部分摘抄"></a>3. 部分摘抄</h3><h4 id="3-1-过早引用"><a href="#3-1-过早引用" class="headerlink" title="3.1 过早引用"></a>3.1 过早引用</h4><p>内容被吞…</p>
+<h4 id="3-2-学以致用，用以促学"><a href="#3-2-学以致用，用以促学" class="headerlink" title="3.2 学以致用，用以促学"></a>3.2 学以致用，用以促学</h4><p>内容被吞…</p>
+<h4 id="3-3-刻意思考"><a href="#3-3-刻意思考" class="headerlink" title="3.3 刻意思考"></a>3.3 刻意思考</h4><p>内容被吞…</p>
+<h4 id="3-4-困难幻觉"><a href="#3-4-困难幻觉" class="headerlink" title="3.4 困难幻觉"></a>3.4 困难幻觉</h4><p>内容被吞…</p>
+<h4 id="3-5-手艺"><a href="#3-5-手艺" class="headerlink" title="3.5 手艺"></a>3.5 手艺</h4><p>最大的收获之一。</p>
+<p>没有什么是不能自学的，反正都只不过是手艺。</p>
+<p>如果未来还很长，现在真不算晚。</p>
+<h4 id="3-6-刚需是自学的结果，而不是原因"><a href="#3-6-刚需是自学的结果，而不是原因" class="headerlink" title="3.6 刚需是自学的结果，而不是原因"></a>3.6 刚需是自学的结果，而不是原因</h4><p>内容被吞…</p>
+<h4 id="越简单的策略，效果越惊人"><a href="#越简单的策略，效果越惊人" class="headerlink" title="越简单的策略，效果越惊人"></a>越简单的策略，效果越惊人</h4><p>内容被吞…</p>
+<p>底层思维基石一定不能复杂</p>
+<h4 id="一个值得交往的人"><a href="#一个值得交往的人" class="headerlink" title="一个值得交往的人"></a>一个值得交往的人</h4><p>内容被吞…</p>
+<p>P305底部</p>
+<h4 id="持续研究"><a href="#持续研究" class="headerlink" title="持续研究"></a>持续研究</h4><p>内容被吞…</p>
+<p>把一个领域的知识拿来用，思考其还能用在哪里。。。P321</p>
+<h4 id="自学一点都不苦"><a href="#自学一点都不苦" class="headerlink" title="自学一点都不苦"></a>自学一点都不苦</h4><p>自学者是自发去学的，原动力在自己。不像其他人，是被动去学的，原动力并非在于自己。</p>
+<p>关于”刻苦”：</p>
+<ol>
+<li>“刻”：刻意思考、刻意练习、刻意保持好奇心、刻意学习一些看起来于当前所掌握手艺完全不相干的知识。</li>
+<li>“苦”：自学者是自发去学的，原动力在自己。苦只是别人的误解。</li>
+</ol>
+<h3 id="4-后记"><a href="#4-后记" class="headerlink" title="4. 后记"></a>4. 后记</h3><p>对于我们普通人而言，很多时候我们不会去追求什么上天揽月这类看着就遥不可及的目标，我们在面对它们的时候也不会有过多的负面情绪，往往也是一笑置之。</p>
+<p>往往给予我们强烈挫败感是那些可以给我们平淡的生活带来显著改观，在我们看来自己努努力应该是可以够到的。恰恰是这类目标的求而久久不得导致当事人陷入严重的自我怀疑，进而很容易进入习得性无助的状态 —— 不相信凭借自己可以做成什么事情，自己的目标一定是无法线的，自己就是个废物等等。</p>
+<p>我曾经也是这类人群中的一员，在误打误撞摆脱这种状态之后，回头俯瞰曾经走过的历程，我发现相较于自身能力，<strong>无比坚定的自信心</strong>才是最重要的 —— 坚信自己走在正确的道路上，坚信自己的能力是在持续增长，坚信假以时日自己一定会走到目的地。</p>
+<p>而这样坚定的自信心，在没有外界力量支援的情况下，如果只求诸于自己，那你所迫切需要的并不是教你如何处理各种各样场景下问题的解决方案，毕竟你的问题只有你最清楚，再高级的教程都不可能涵盖你的所有场景。这种时候，你最需要的是<strong>以最朴素的价值观体系为基石，逐步推导出并且最终进行思维链条闭环 —— 如何成功地做成一件事情</strong>。</p>
+<p>这本书，李笑来老师的一系列书籍，其实都是在帮你实现这个目的 —— 完成思维修炼，坚信自己走在正确的路上，自己一定会达成自己的目的，至少会比当下的自己好很多。</p>
+<p>人生苦长，无须惊慌。祝你好运！</p>
+<h3 id="5-相关"><a href="#5-相关" class="headerlink" title="5. 相关"></a>5. 相关</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/4986478ec10d">《思考的真相》读后感 - 简书</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/7aac3e7d6e77">《财富的真相》读后感 - 简书</a></li>
+</ol>
+<h3 id="6-源头"><a href="#6-源头" class="headerlink" title="6. 源头"></a>6. 源头</h3><ol>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/4755d0c00a17">简书(2024.11.26) - 《自学是门手艺》读后感</a></li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author_group"><a class="post-copyright__author_img" href="/about/"><img class="post-copyright__author_img_front" src="/img/pwa/favicon.png"></a><div class="post-copyright__author_name">夫礼者Home</div><div class="post-copyright__author_desc"></div></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div id="quit-box" onclick="RemoveRewardMask()"></div><div class="post-reward"><div class="reward-button" title="赞赏作者" onclick="AddRewardMask()"><i class="solitude fa-solid fa-heart"></i>赞赏作者</div><div class="reward-main"><ul class="reward-all"><span class="reward-title">感谢您的赞赏</span><ul class="reward-group"><li class="reward-item"><a href="/images/wxpay.jpg"><img class="post-qr-code-img nolazyload" src="/images/wxpay.jpg" alt="微信" style="border-color: var(--efu-green)"></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/images/alipay.jpg"><img class="post-qr-code-img nolazyload" src="/images/alipay.jpg" alt="支付宝" style="border-color: var(--efu-blue)"></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/"><div class="reward-text">赞赏名单</div><div class="reward-dec">由于您的支持，我才能够实现写作的价值。</div></a></ul></div></div><script>function RemoveRewardMask() {
+    let rewardMainElements = document.querySelectorAll(".reward-main");
+    let quitBoxElement = document.querySelector("#quit-box");
+
+    rewardMainElements.forEach(element => {
+        element.style.display = "none";
+    });
+
+    if (quitBoxElement) {
+        quitBoxElement.style.display = "none";
+    }
+}
+
+function AddRewardMask() {
+    let rewardMainElements = document.querySelectorAll(".reward-main");
+    let quitBoxElement = document.querySelector("#quit-box");
+
+    rewardMainElements.forEach(element => {
+        element.style.display = "flex";
+    });
+
+    if (quitBoxElement) {
+        quitBoxElement.style.display = "flex";
+    }
+}</script></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本文是原创文章，采用<a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">CC BY-NC-SA 4.0</a>协议，完整转载请注明来自<a href="/">夫礼者Home</a></span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E9%98%85%E8%AF%BB/"><span class="tags-punctuation"><i class="solitude fa-solid fa-hashtag"></i>阅读<span class="tagsPageCount">2</span></span></a></div></div></div><nav class="needEndHide pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/12/12/%E3%80%8A%E4%B8%80%E6%9C%AC%E5%B0%8F%E5%B0%8F%E7%9A%84%E7%BA%A2%E8%89%B2%E5%86%99%E4%BD%9C%E4%B9%A6%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">《一本小小的红色写作书》读后感</div></div></a></div><div class="next-post pull-right"><a href="/2024/12/12/%E5%85%B8%E5%9E%8B%E5%B0%8F%E6%95%A3%E7%9A%84%E6%8A%95%E8%B5%84%E7%94%9F%E6%B6%AF%E6%80%BB%E7%BB%932018-2024/"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">典型小散的投资生涯总结(2018-2024)</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-bg-top"><div class="is-center"><div class="author-info__top-group"><div class="author-info__sayhi" id="author-info__sayhi" onclick="sco.changeSayHelloText()">sayhello.morning</div></div></div></div><a class="card-info-avatar" href="/about/" title="头像"><div class="avatar-img"><img src="/images/sicp_cover_english.jpg" alt="头像"></div></a><div class="card-info__desc_group"><div class="author-info__name">夫礼者</div><div class="author-info__desc"></div><div class="card-info__data is-center"><a href="/archives/" title="累计文章数:4"><div class="length-num">4</div><div class="headline">文章</div></a><a href="/tags/" title="标签总数:2"><div class="length-num">2</div><div class="headline">标签</div></a><a href="/categories/" title="分类总数:2"><div class="length-num">2</div><div class="headline">分类</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" target="_blank" rel="noopener" href="https://github.com/fulizhe" title="Github"><i class="solitude  fab fa-github"></i></a><a class="social-icon" target="_blank" rel="noopener" href="https://gitee.com/lqzkcx3" title="Gitee"><i class="solitude  fab fa-git"></i></a><a class="social-icon" target="_blank" rel="noopener" href="https://www.zhihu.com/people/tao-luo-73" title="Zhihu"><i class="solitude  fab fa-zhihu"></i></a><a class="social-icon" target="_blank" rel="noopener" href="https://blog.csdn.net/lqzkcx3" title="CSDN"><i class="solitude  fab fa-bilibili"></i></a><a class="social-icon" target="_blank" rel="noopener" href="https://www.jianshu.com/u/cd3dd432fd00" title="jianshu"><i class="solitude  fab fa-node-js"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="solitude fa-solid fa-bars"></i><span>文章目录</span></div><div class="toc-content" id="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1. 前言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%85%A8%E4%B9%A6%E5%8D%B0%E8%B1%A1"><span class="toc-text">2. 全书印象</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E9%83%A8%E5%88%86%E6%91%98%E6%8A%84"><span class="toc-text">3. 部分摘抄</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#3-1-%E8%BF%87%E6%97%A9%E5%BC%95%E7%94%A8"><span class="toc-text">3.1 过早引用</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-2-%E5%AD%A6%E4%BB%A5%E8%87%B4%E7%94%A8%EF%BC%8C%E7%94%A8%E4%BB%A5%E4%BF%83%E5%AD%A6"><span class="toc-text">3.2 学以致用，用以促学</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-3-%E5%88%BB%E6%84%8F%E6%80%9D%E8%80%83"><span class="toc-text">3.3 刻意思考</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-4-%E5%9B%B0%E9%9A%BE%E5%B9%BB%E8%A7%89"><span class="toc-text">3.4 困难幻觉</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-5-%E6%89%8B%E8%89%BA"><span class="toc-text">3.5 手艺</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-6-%E5%88%9A%E9%9C%80%E6%98%AF%E8%87%AA%E5%AD%A6%E7%9A%84%E7%BB%93%E6%9E%9C%EF%BC%8C%E8%80%8C%E4%B8%8D%E6%98%AF%E5%8E%9F%E5%9B%A0"><span class="toc-text">3.6 刚需是自学的结果，而不是原因</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%B6%8A%E7%AE%80%E5%8D%95%E7%9A%84%E7%AD%96%E7%95%A5%EF%BC%8C%E6%95%88%E6%9E%9C%E8%B6%8A%E6%83%8A%E4%BA%BA"><span class="toc-text">越简单的策略，效果越惊人</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%B8%AA%E5%80%BC%E5%BE%97%E4%BA%A4%E5%BE%80%E7%9A%84%E4%BA%BA"><span class="toc-text">一个值得交往的人</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8C%81%E7%BB%AD%E7%A0%94%E7%A9%B6"><span class="toc-text">持续研究</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E8%87%AA%E5%AD%A6%E4%B8%80%E7%82%B9%E9%83%BD%E4%B8%8D%E8%8B%A6"><span class="toc-text">自学一点都不苦</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%90%8E%E8%AE%B0"><span class="toc-text">4. 后记</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E7%9B%B8%E5%85%B3"><span class="toc-text">5. 相关</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E6%BA%90%E5%A4%B4"><span class="toc-text">6. 源头</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="solitude fa-solid fa-map"></i><span>最近发布</span></div><div class="aside-list"><a class="aside-list-item" href="/2024/12/12/%E3%80%8A%E4%B8%80%E6%9C%AC%E5%B0%8F%E5%B0%8F%E7%9A%84%E7%BA%A2%E8%89%B2%E5%86%99%E4%BD%9C%E4%B9%A6%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/" title="《一本小小的红色写作书》读后感"><div class="thumbnail"><img alt="《一本小小的红色写作书》读后感" src="/2024/12/12/%E3%80%8A%E4%B8%80%E6%9C%AC%E5%B0%8F%E5%B0%8F%E7%9A%84%E7%BA%A2%E8%89%B2%E5%86%99%E4%BD%9C%E4%B9%A6%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/cover.webp"></div><div class="content"><span class="title" href="/2024/12/12/%E3%80%8A%E4%B8%80%E6%9C%AC%E5%B0%8F%E5%B0%8F%E7%9A%84%E7%BA%A2%E8%89%B2%E5%86%99%E4%BD%9C%E4%B9%A6%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/" title="《一本小小的红色写作书》读后感">《一本小小的红色写作书》读后感</span><span class="article-recent_post_categories" href="/2024/12/12/%E3%80%8A%E4%B8%80%E6%9C%AC%E5%B0%8F%E5%B0%8F%E7%9A%84%E7%BA%A2%E8%89%B2%E5%86%99%E4%BD%9C%E4%B9%A6%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/">阅读</span></div></a><a class="aside-list-item" href="/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/" title="《自学是门手艺》读后感"><div class="thumbnail"><img alt="《自学是门手艺》读后感" src="/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/cover.jpg"></div><div class="content"><span class="title" href="/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/" title="《自学是门手艺》读后感">《自学是门手艺》读后感</span><span class="article-recent_post_categories" href="/2024/12/12/%E3%80%8A%E8%87%AA%E5%AD%A6%E6%98%AF%E9%97%A8%E6%89%8B%E8%89%BA%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/">阅读</span></div></a><a class="aside-list-item" href="/2024/12/12/%E5%85%B8%E5%9E%8B%E5%B0%8F%E6%95%A3%E7%9A%84%E6%8A%95%E8%B5%84%E7%94%9F%E6%B6%AF%E6%80%BB%E7%BB%932018-2024/" title="典型小散的投资生涯总结(2018-2024)"><div class="thumbnail"><img alt="典型小散的投资生涯总结(2018-2024)" src="/2024/12/12/%E5%85%B8%E5%9E%8B%E5%B0%8F%E6%95%A3%E7%9A%84%E6%8A%95%E8%B5%84%E7%94%9F%E6%B6%AF%E6%80%BB%E7%BB%932018-2024/cover.png"></div><div class="content"><span class="title" href="/2024/12/12/%E5%85%B8%E5%9E%8B%E5%B0%8F%E6%95%A3%E7%9A%84%E6%8A%95%E8%B5%84%E7%94%9F%E6%B6%AF%E6%80%BB%E7%BB%932018-2024/" title="典型小散的投资生涯总结(2018-2024)">典型小散的投资生涯总结(2018-2024)</span><span class="article-recent_post_categories" href="/2024/12/12/%E5%85%B8%E5%9E%8B%E5%B0%8F%E6%95%A3%E7%9A%84%E6%8A%95%E8%B5%84%E7%94%9F%E6%B6%AF%E6%80%BB%E7%BB%932018-2024/">理财</span></div></a><a class="aside-list-item" href="/2024/11/10/hello-world/" title="Hello World"><div class="thumbnail"><img alt="Hello World" src="/images/sicp_cover_english.jpg"></div><div class="content"><span class="title" href="/2024/11/10/hello-world/" title="Hello World">Hello World</span></div></a></div></div></div></div></main><footer id="footer"><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div class="copyright">© 2023 - 2024 By&nbsp;<a class="footer-bar-link" href="/"><img class="author-avatar" src="/img/pwa/favicon.png">夫礼者</a></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/everfu/hexo-theme-solitude" alt="Theme">Theme</a></div></div></div></footer></div><!-- right_menu--><!-- inject body--><div><script src="/js/utils.js?v=2.1.13"></script><script src="/js/main.js?v=2.1.13"></script><script src="/js/third_party/waterfall.min.js?v=2.1.13"></script><script src="https://fastly.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script src="/js/tw_cn.js?v=2.1.13"></script><script src="https://fastly.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+utils.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+</script><script src="https://fastly.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><div class="js-pjax"></div></div><!-- pjax--><script>const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: ["title","#body-wrap","#site-config","meta[name=\"description\"]",".js-pjax","meta[property^=\"og:\"]","#config-diff",".rs_show",".rs_hide"],
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+})
+
+document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+})
+
+document.addEventListener('pjax:complete', () => {
+    window.refreshFn()
+
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+        const newScript = document.createElement('script')
+        const content = item.text || item.textContent || item.innerHTML || ""
+        Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+        newScript.appendChild(document.createTextNode(content))
+        item.parentNode.replaceChild(newScript, item)
+    })
+
+    GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+})
+
+document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+        pjax.loadUrl('/404.html')
+    }
+})</script><!-- google adsense--><!-- search--><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><button class="search-close-button"><i class="solitude fa-solid fa-xmark"></i></button></nav><div class="search-wrap"><div class="search-box"><input class="search-box-input" id="search-input" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="输入关键词快速查找"></div><div id="search-results"><div id="search-hits"></div></div><div id="search-pagination"></div><div id="search-tips"></div></div></div><div id="search-mask"></div></div><script src="/js/search/local.js?v=2.1.13"></script><!-- Tianli-Talk--><!-- music--></body></html>
+        <script>
+            const posts = ["2024/12/12/《一本小小的红色写作书》读后感/","2024/12/12/《自学是门手艺》读后感/","2024/12/12/典型小散的投资生涯总结2018-2024/","2024/11/10/hello-world/"];
+            function toRandomPost() {
+                const randomPost = posts[Math.floor(Math.random() * posts.length)];
+                pjax.loadUrl(GLOBAL_CONFIG.root + randomPost);
+            }
+        </script>
